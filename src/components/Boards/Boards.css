@@ -1,0 +1,52 @@
+.boards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+
+.boards_users{
+    width: 300px;
+    height: 500px;
+    overflow-y: scroll;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.boards_todo{
+    width: 300px;
+    height: 500px;
+    overflow-y: scroll;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.boards_progress{
+    width: 300px;
+    height: 500px;
+    overflow-y: scroll;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.boards_finished{
+    width: 300px;
+    height: 500px;
+    overflow-y: scroll;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.custom_scroll::-webkit-scrollbar{
+    border: none;
+    width: 6px;
+}
+
+.custom_scroll::-webkit-scrollbar-thumb{
+    background-color: rgb(88, 87, 87);
+    border-radius: 12px;
+}
+

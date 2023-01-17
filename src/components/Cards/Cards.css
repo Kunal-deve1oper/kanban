@@ -1,0 +1,52 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.card_top{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+.card_top svg{
+    padding: 3px;
+    width: 24px;
+    height: 22px;
+    opacity: 0;
+}
+
+.card:hover .card_top svg{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.card_footer{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card_footer svg{
+    padding: 3px;
+    width: 24px;
+    height: 22px;
+}
+
+.card_title{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.card_title span{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
